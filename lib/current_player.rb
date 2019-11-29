@@ -4,8 +4,8 @@ def turn_count(board)
     if square == "X" || square == "O"
       counter += 1
     end
-  return counter
   end
+  return counter
 end
 
 board1 = ["O", " ", " ", " ", "X", " ", " ", " ", "X"]
