@@ -1,4 +1,3 @@
-counter = 0
 def turn_count(board)
   board.each do |square|
     if square == "X" || square == "O"
