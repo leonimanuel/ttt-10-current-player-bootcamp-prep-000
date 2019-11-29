@@ -1,6 +1,6 @@
 def turn_count(board)
   counter = 0
-  board.each |square| do
+  board.each do |square| 
     if square == "X" || square == "O"
       counter = counter += 1
     end
